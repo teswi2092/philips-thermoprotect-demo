@@ -1,0 +1,130 @@
+/* Reset and base styles */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fdfdfd;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #a18cd1, #fbc2eb);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Hero Banner */
+.hero {
+    background: linear-gradient(to right, #89f7fe, #66a6ff);
+    padding: 3rem;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    margin: 2rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #6a11cb;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2575fc;
+}
+
+/* Section styling */
+section {
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #e0c3fc;
+    color: #333;
+    padding: 0.75rem;
+}
+
+td {
+    padding: 0.75rem;
+    background-color: #f9f9f9;
+}
+
+/* FAQ Section */
+.faq {
+    background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+    color: #333;
+}
+
+/* Testimonials */
+.testimonials {
+    background-color: #e0f7fa;
+    font-style: italic;
+}
+
+/* Video Section */
+.video {
+    background-color: #fff3e0;
+}
+
+/* Prompt Library */
+.prompts {
+    background-color: #ede7f6;
+}
+
+/* Footer */
+footer {
+    background-color: #6a11cb;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-top: 4px solid #2575fc;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    section {
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    button {
+        width: 100%;
+    }
+}
